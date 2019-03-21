@@ -283,7 +283,7 @@ function getTempData() {
 		
 		var currentTime = startTime;
 		
-		while (parseInt(currentTime) <= parseInt(endTime)) {
+		while (parseInt(currentTime) < parseInt(endTime)) {
 			for (var x = 0; x < daysArray.length; x++) {
 				document.getElementById(currentTime + daysArray[x].substring(0,2) + term).style.backgroundColor = '#a0f98b';
 				document.getElementById(currentTime + daysArray[x].substring(0,2) + term).innerHTML = section;
