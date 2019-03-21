@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<link href="style.css" rel="stylesheet" />
+	<script src="scripts/fetch_courses.js"></script>
+	<title>UBC Course Organizer</title>
+</head>
+
+<body>
+	<h1>UBC Course Organizer</h1>
+	<h2>Created by Toothless Walrus Development</h2>
+	
+	<h3 id="unselectedFieldsWarning">Warning! One or more of the drop downs are empty!</h3>
+	
+	Session:
+	<select id="sessionSelector" onchange="chosenSession()">
+		<option value=""></option>
+		<option value="2018W">2018W</option>
+		<option value="2019S">2019S</option>
+	</select>
+	
+	Course:
+	<select id="courseNameSelector" onchange="chosenCourseName()">
+		<option value=""></option>
+	</select>
+	<select id="courseNumberSelector" onchange="chosenCourseNumber()">
+		<option value=""></option>
+	</select>
+	
+	<button id="submitButton" onclick="chosenCourseSubmit()">Submit</button>
+
+	<p>After selecting an option from a drop down menu, please wait 1 second for the next drop down to update.</p>
+	
+	<p>This service uses JavaScript. Please make sure JavaScript is enabled.</p>
+	
+	<p>Note: Currently only supports lecture sections. Lab and tutorial sections will not be displayed.</p>
+
+</body>
+</html>

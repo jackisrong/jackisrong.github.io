@@ -1,0 +1,47 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<link href="style.css" rel="stylesheet" />
+	<link href="selected_course_style.css" rel="stylesheet" />
+	<script src="scripts/fetch_courses.js"></script>
+	<title>UBC Course Organizer</title>
+</head>
+
+<body onload="getCourseInfo()">
+	<h1>UBC Course Organizer</h1>
+	<h2 id="courseCode">This is supposed to be the course code</h2>
+	<h3 id="courseTitle">This is supposed to be the course title</h3>
+	<p><a id="courseLink" href="about:blank">Click here to visit the course on the UBC registration website</a></p>
+
+	<!-- Section Information -->
+	<table id="mainInfo">
+		<col width="auto">
+		<col width="auto">
+		<col width="auto">
+		<col width="auto">
+		<col width="auto">
+		<col width="auto">
+		<col width="auto">
+		<col width="auto">
+		<col width="70px">
+		<col width="auto">
+		<col width="auto">
+		<tr>
+			<th>Status</th>
+			<th>Section</th>
+			<th>Activity</th>
+			<th>Term</th>
+			<th>Days</th>
+			<th>Start Time</th>
+			<th>End Time</th>
+			<th>Instructor</th>
+			<th>Building</th>
+			<th>Room</th>
+			<th>Seat Information</th>
+		</tr>
+	</table>
+	
+	<p id="tempData"></p>
+	
+</body>
+</html>
