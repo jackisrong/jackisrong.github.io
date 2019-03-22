@@ -1,0 +1,24 @@
+#unselectedFieldsWarning {
+	background-color: #ff5e42;
+	color: #ffffff;
+	padding: 5px 5px 5px 5px;
+	display: none;
+}
+
+select {
+	padding: 5px 5px 5px 5px;
+}
+
+button {
+	padding: 5px 5px 5px 5px;
+	background-color: #ffffff;
+	color: #000000;
+	border: 2px solid #930fff;
+	-webkit-transition-duration: 0.4s;
+	transition-duration: 0.4s;
+}
+
+button:hover {
+  background-color: #930fff;
+  color: #ffffff;
+}
