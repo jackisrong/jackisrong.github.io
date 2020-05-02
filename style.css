@@ -1,0 +1,97 @@
+body {
+	background-color: #555555;
+	color: #ffffff;
+}
+
+.navbar-custom {
+	background-color: #930fff;
+}
+
+#home {
+	color: #ffffff;
+	background: linear-gradient(rgba(147,15,255,0.45), rgba(147,15,255,0.45)), url("assets/images/HomeBackground.jpg");
+	background-position: center center;
+	background-size: cover;
+	background-color: #930fff;
+}
+
+.background-white {
+	background-color: #ffffff;
+	color: #000000;
+}
+
+.background-offwhite{
+	background-color: #e8dcf2;
+	color: #000000;
+}
+
+#about, #skills, #experience, #projects, #contact {
+	padding-bottom: 40px;
+}
+
+#skills ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+.skills-stars {
+	float: right;
+	color: #930fff;
+}
+
+#projects .card .row .card {
+	margin-top: 0px;
+}
+
+#contact a {
+	color: #930fff;
+}
+
+#contact i {
+	color: #930fff;
+	background-color: #ffffff;
+	line-height: 35px;
+	text-align: center;
+	vertical-align: middle;
+	width: 35px;
+	height: 35px;
+	border-radius: 5px;
+	-webkit-transition-duration: 0.4s;
+	transition-duration: 0.4s;
+}
+
+#contact a:hover {
+	text-decoration: none;
+}
+
+#contact a:hover i {
+	color: #ffffff;
+	background-color: #930fff;
+}
+
+.container:before { 
+	display: block;
+	content: "";
+	margin-top: 0px;
+	height: 15px;
+	visibility: hidden;
+}
+
+footer {
+	position: absolute;
+	width: 100%;
+	color: #ffffff;
+}
+
+footer p {
+	margin-top: 10px;
+}
+
+
+
+
+
+
+
+
