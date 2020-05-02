@@ -1,3 +1,8 @@
+html {
+	scroll-behavior: smooth;
+	scroll-padding-top: 55px;
+}
+
 body {
 	background-color: #555555;
 	color: #ffffff;
@@ -26,6 +31,7 @@ body {
 }
 
 #about, #skills, #experience, #projects, #contact {
+	padding-top: 40px;
 	padding-bottom: 40px;
 }
 
@@ -68,14 +74,6 @@ body {
 #contact a:hover i {
 	color: #ffffff;
 	background-color: #930fff;
-}
-
-.container:before { 
-	display: block;
-	content: "";
-	margin-top: 0px;
-	height: 15px;
-	visibility: hidden;
 }
 
 footer {
